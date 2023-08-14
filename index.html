@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <!-- COLORS:
+        24,29,39    dark
+        37,77,50    low color
+        58,126,68   mid color
+        105,181,120 hi color
+        208,219,151 bright
+        -->
+        <style>
+            body {
+                font-family: "Lucida Console", monospace;
+                background-color:rgb(24,29,39);
+                color:rgb(105,181,120);
+            }
+            a {
+                color:rgb(208,219,151);
+            }
+            header {
+                margin-top:32px;
+                margin-left:16px;
+            }
+            main {
+                margin-left:24px;
+            }
+            footer {
+                margin-left:16px;
+            }
+            #title {
+                font-family: "Georgia", serif;
+                text-decoration: underline;
+            }
+            #table-of-contents {
+                margin-top:32px;
+                margin-bottom:48px;
+            }
+            .nav-table {
+                width:200px;
+                border-bottom: 2px solid rgb(208,219,151);
+                padding-bottom: 4px; 
+                text-align: center;
+            }
+            .bio {
+                font-family: "Georgia", serif;
+            }
+            .contents-list {
+                
+            }
+            .post-head {
+                margin-bottom:-24px;
+                text-decoration: underline;
+            }
+            .post-subtext {
+                margin-bottom:-6px;
+                margin-left:12px;
+                font-style: italic;
+            }
+            .post-body {
+                margin-left:24px;
+                font-family: "Georgia", serif;
+            }
+            .contact-info{
+                margin-top:8px;
+                margin-left:24px;
+                font-style: italic;
+                font-size:0.75em;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1 id="title">Svedek's blog</h1>
+            <nav>
+                <table class="nav-table">
+                    <tr>
+                        <td><a href="#Home">Home</a></td>
+                        <td><a href="#Other">Other</a></td>
+                    </tr>
+                </table>
+            </nav>
+        </header>
+        <main>
+            <p class="bio">A blog to show my journey woah</p>
+            <div id="table-of-contents">
+                <h3>Contents:</h3>
+                <ul class="contents-list">
+                    <li><a href="#post-3">Future post</a></li>
+                    <li><a href="#post-2">Second post</a></li>
+                    <li><a href="#post-1">Initial post!</a></li>
+                </ul>
+            </div>
+            
+            <h2 class="post-head" id="post-3">Future post</h2>
+            <h6 class="post-subtext">Posted: Future</h6>
+            <p class="post-body">This post is dated for a future date, woah. (also emulates a post)<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>end of future post</p>
+            <br>
+            <h2 class="post-head" id="post-2">Second Post</h2>
+            <h6 class="post-subtext">Posted: August 20, 2023</h6>
+            <p class="post-body">This post is for about a week in the future and hasnt come out yet.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>end of second post</p>
+            <br>
+            <h2 class="post-head" id="post-1">Initial post!</h2>
+            <h6 class="post-subtext">Posted: August 13, 2023</h6>
+            <p class="post-body">This marks day 3 of sticking to learning web development and the start of this blog. I feel like im making decent progress with HTML and CSS. I am also excited to learn more about SQL and JS.<br><br>
+            I made this website as an exercise in web development, but I'm enjoying making it and im mostly happy with how its looking.
+            </p>
+            <br>
+        </main>
+        <footer>
+            <p><a href="#title">Top</a></p>
+            <p class="contact-info">Contact Info<p>
+        </footer>
+    </body>
+</html>
