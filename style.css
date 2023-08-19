@@ -1,0 +1,77 @@
+/* Svedek
+#101319 - bg
+#1F2633 - alt bg
+#69B578 - text
+#D0DB97 - alt text
+*/
+body {
+	font-family: "Lucida Console", monospace;
+	background-color: #101319;
+	color: #69B578;
+}
+
+a {
+	color: #D0DB97;
+}
+
+header {
+	margin-top:32px;
+	margin-left:16px;
+}
+
+main {
+	margin-left:24px;
+}
+
+footer {
+	margin-left:16px;
+}
+
+#title {
+	font-family: "Georgia", serif;
+	text-decoration: underline;
+}
+
+#table-of-contents {
+	margin-top:32px;
+	margin-bottom:48px;
+}
+
+.nav-table {
+	width: 200px;
+	border-bottom: 2px solid #D0DB97;
+	border-left: 2px solid rgb(208,219,151);
+	padding-bottom: 4px; 
+	text-align: center;
+}
+
+.bio {
+	font-family: "Georgia", serif;
+}
+
+.contents-list {
+	
+}
+
+.post-head {
+	margin-bottom:-24px;
+	text-decoration: underline;
+}
+
+.post-subtext {
+	margin-bottom:-6px;
+	margin-left:12px;
+	font-style: italic;
+}
+
+.post-body {
+	margin-left:24px;
+	font-family: "Georgia", serif;
+}
+
+.contact-info{
+	margin-top:8px;
+	margin-left:24px;
+	font-style: italic;
+	font-size:0.75em;
+}
