@@ -1,48 +1,96 @@
 /* Svedek
 #101319 - bg
-#1F2633 - alt bg
+#1F2633 - bg element
+#454C43 - bg flair
 #69B578 - text
-#D0DB97 - alt text
+#D0DB97 - text element
 */
 body {
 	font-family: "Lucida Console", monospace;
 	background-color: #101319;
 	color: #69B578;
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+main {
+	background-color: #161c27;
+	border: 2px dashed #101319;
+	border-top: 0px;
+}
+
+article {
+	padding: 2.5em 2em;
+	border-top: 2px solid #454C43;
+}
+
+article header {
+	display: flex;
+    flex-direction: column;
+}
+
+main footer {
+	display: flex;
+    justify-content: space-evenly;
+	border-top: 2px solid #454C43;
+	margin: 2em 4em;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+h1 {
+	font-family: "Georgia", serif;
+	text-decoration: underline;
 }
 
 a {
 	color: #D0DB97;
 }
 
-header {
-	margin-top:32px;
-	margin-left:16px;
+a:hover {
+	color: #ffffff;
 }
 
-main {
-	margin-left:24px;
-}
-
-footer {
-	margin-left:16px;
-}
-
-#title {
-	font-family: "Georgia", serif;
-	text-decoration: underline;
+#page-head {
+	padding-top: 1em;
+	display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 #table-of-contents {
-	margin-top:32px;
-	margin-bottom:48px;
+	margin: 2.5em 2em;
 }
 
-.nav-table {
-	width: 200px;
+.page-subtext {
+	padding: 1em 0em;
+	margin: 0em 2em;
+	margin-right: 4em;
+}
+
+.nav-menu {
+	list-style: none;
+	padding: 4px 10% 4px 12px;
+	margin: 0;
+	display: flex;
+	background-color: #161C27;
 	border-bottom: 2px solid #D0DB97;
-	border-left: 2px solid rgb(208,219,151);
-	padding-bottom: 4px; 
-	text-align: center;
+	border-left: 4px solid #D0DB97;
+}
+.nav-menu li {
+	margin-right: 24px;
+}
+
+.nav-menu li:last-child {
+	margin-right: 0;
+}
+
+.nav-menu li a {
+	text-decoration: none;
+	font-weight: bold;
 }
 
 .bio {
@@ -50,22 +98,21 @@ footer {
 }
 
 .contents-list {
-	
+	color: #D0DB97;
+	list-style-type: "-> ";
 }
 
 .post-head {
-	margin-bottom:-24px;
-	text-decoration: underline;
+	margin: 0;
 }
 
 .post-subtext {
-	margin-bottom:-6px;
-	margin-left:12px;
+	margin: 0 0 0 1em;
 	font-style: italic;
 }
 
 .post-body {
-	margin-left:24px;
+	margin: 1em 2em;
 	font-family: "Georgia", serif;
 }
 

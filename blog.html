@@ -3,54 +3,68 @@
     <head>
         <meta charset="utf-8">
         <title>Blog</title>
-		<!--
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<style>
-		</style>
-		-->
     </head>
     
     <body>
-		<header>
-			<h1 id="title">Svedek's blog</h1>
+		<header id="page-head">
+			<h1 id=>Blog</h1>
 			<h2>Svedek</h2>
 		</header>
+		
+		<nav>
+			<ul class="nav-menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html">About</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="index.html">Art</a></li>
+			</ul>
+		</nav>
+		
         <main>
-            <p>A blog to show my journey woah</p>
-			<table class="nav-table">
-				<tr>
-					<td><a href="index.html">Home</a></td>
-					<td><a href="blog.html">Blog</a></td>
-					<td><a href="projects.html">Projects</a></td>
-				</tr>
-			</table>
+			<div class="page-subtext">
+				<p>My blog where I post about things I do. My goal is roughly two posts a month, though we'll see.</p>
+			</div>
             <div id="table-of-contents">
-                <h3>Contents:</h3>
+                <h2>Contents:</h2>
                 <ul class="contents-list">
-                    <li><a href="#post-3">Future post</a></li>
-                    <li><a href="#post-2">Second post</a></li>
+                    <li><a href="#post-2">Blog page completed!</a></li>
                     <li><a href="#post-1">Initial post!</a></li>
                 </ul>
             </div>
-            
-            <h2 class="post-head" id="post-3">Future post</h2>
-            <h6 class="post-subtext">Posted: Future</h6>
-            <p class="post-body">This post is dated for a future date, woah. (also emulates a post)<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>end of future post</p>
-            <br>
-            <h2 class="post-head" id="post-2">Second Post</h2>
-            <h6 class="post-subtext">Posted: August 20, 2023</h6>
-            <p class="post-body">This post is for about a week in the future and hasnt come out yet.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>end of second post</p>
-            <br>
-            <h2 class="post-head" id="post-1">Initial post!</h2>
-            <h6 class="post-subtext">Posted: August 13, 2023</h6>
-            <p class="post-body">This marks day 3 of sticking to learning web development and the start of this blog. I feel like im making decent progress with HTML and CSS. I am also excited to learn more about SQL and JS.<br><br>
-            I made this website as an exercise in web development, but I'm enjoying making it and im mostly happy with how its looking.
-            </p>
-            <br>
+			
+			<article id="post-2">
+				<header>
+					<h2 class="post-head">Blog page completed!</h2>
+					<h6 class="post-subtext">September 9th, 2023</h6>
+				</header>
+				<p class="post-body">
+					I have finally finished the main blog page (c:) and have a rough plan drawn up for the remaining pages. The stylesheets used for this blog should suit the other pages with a few tweeks, meaning they will probably come out a whole lot faster. I still want to set up an about me page, a home page, a projects page, and an art gallery page.
+					<br><br>
+					University has also begun and thus I may not be able to work as readily on side projects, though I still plan on finishing my current game project: The Seeker. Of which I had to scale back as my vision kept growing and now I am focusing on exclusively what was in the original plan. The game will be a top-down singular boss fight with some additional stuff that I will reveal later. The player is almost entirely complete, though I still have to complete the boss, menus, sounds, transitions, and almost certainly bugs / unexpected things.
+					<br><br>
+					I plan on updating this blog roughly twice a month, though we’ll see how that works out. I also plan on joining game jams that come up and making a lot more smaller games and projects. Either way though, I’ll update later and see where I am, thanks for reading <3.
+				</p>
+			</article>
+			
+			<article id="post-1">
+				<header>
+					<h2 class="post-head">Initial post!</h2>
+					<h6 class="post-subtext">Posted: August 13th, 2023</h6>
+				</header>
+				<p class="post-body">This marks day 3 of sticking to learning web development and the start of this blog. I feel like im making decent progress with HTML and CSS. I am also excited to learn more about SQL and JS.<br><br>
+				I made this website as an exercise in web development, but I'm enjoying making it and im mostly happy with how its looking.
+				</p>
+			</article>
+			
+			<footer>
+				<p><a href="#page-head">Top</a></p>
+			</footer>
         </main>
+		
         <footer>
-            <p><a href="#title">Top</a></p>
-            <p class="contact-info">Contact Info<p>
+            <p class="contact-info">Svedek<p>
         </footer>
     </body>
 </html>
