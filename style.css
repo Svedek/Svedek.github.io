@@ -116,9 +116,25 @@ a:hover {
 	font-family: "Georgia", serif;
 }
 
+.post-body p {
+	margin-top:1.5em;
+	margin-bottom:1.5em;
+}
+
 .contact-info{
 	margin-top:8px;
 	margin-left:24px;
 	font-style: italic;
 	font-size:0.75em;
+}
+
+.embed-youtube{
+    margin: auto;
+    transform: translate(25%, 0%);
+	text-align:center;
+	width:560px;
+	height:315px;
+	max-width:560px;
+	max-height:315px;
+	border: 8px solid #101319;
 }
