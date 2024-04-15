@@ -39,12 +39,14 @@ main footer {
 
 p {
 	line-height: 1.5em;
+	font-size: 1em;
 }
 
 h1 {
 	font-family: "Georgia", serif;
 	text-decoration: underline;
 }
+
 
 a {
 	color: #D0DB97;
@@ -128,9 +130,12 @@ a:hover {
 	font-size:0.75em;
 }
 
+.media-container{
+	text-align: center;
+}
+
 .embed-youtube{
     margin: auto;
-    transform: translate(25%, 0%);
 	text-align:center;
 	width:560px;
 	height:315px;
