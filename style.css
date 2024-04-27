@@ -104,6 +104,10 @@ a:hover {
 	list-style-type: "-> ";
 }
 
+.contents-list a {
+	text-decoration: none;
+}
+
 .post-head {
 	margin: 0;
 }
@@ -123,18 +127,22 @@ a:hover {
 	margin-bottom:1.5em;
 }
 
-.contact-info{
-	margin-top:8px;
-	margin-left:24px;
-	font-style: italic;
-	font-size:0.75em;
-}
-
 .media-container{
     text-align: center;
     display: flex;
     justify-content: space-evenly;
 	flex-wrap: wrap;
+}
+.media-container h3 {
+    margin-bottom: 0px;
+}
+
+.project-description{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+	width: 40%;
 }
 
 .embed-youtube{
@@ -151,4 +159,42 @@ a:hover {
     # margin: auto;
 	# text-align:center;
 	border: 8px solid #101319;
+}
+
+.contact-footnote {
+	margin: 8px 24px;
+	display: flex;
+	font-style: italic;
+	font-size:0.8em;
+}
+
+.small-icon-container {
+	#height: 100px;
+}
+
+.small-icon-container a {
+	text-decoration: none;
+}
+
+.small-icon-container img {
+	height: 35px;
+	margin: 0px 4px;
+}
+
+.fill-space {
+    margin: auto;
+}
+
+.page-section {
+	margin: 3em 1em;
+	
+}
+
+.page-section h3 {
+	margin: 0em 0em;
+}
+
+.page-section p {
+	margin: 1em 1em;
+	font-family: "Georgia", serif;
 }
