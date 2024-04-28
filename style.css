@@ -133,8 +133,13 @@ a:hover {
     justify-content: space-evenly;
 	flex-wrap: wrap;
 }
+
 .media-container h3 {
     margin-bottom: 0px;
+}
+
+.media-container p {
+    font-family: "Georgia", serif;
 }
 
 .project-description{
